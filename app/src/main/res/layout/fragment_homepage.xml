@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/framehome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sblue"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="insideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="206dp"
+                    android:layout_height="191dp"
+                    android:background="@drawable/hospital"
+                    android:padding="20dp"
+                    android:paddingStart="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="20dp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="191dp"
+                    android:layout_height="191dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/police"
+                    android:padding="20dp"
+                    android:paddingStart="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="191dp"
+                    android:layout_height="191dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fire"
+                    android:padding="20dp"
+                    android:paddingStart="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="20dp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="191dp"
+                    android:layout_height="191dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/car"
+                    android:padding="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="191dp"
+                    android:layout_height="191dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/forst"
+                    android:padding="20dp" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="191dp"
+                    android:layout_height="191dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/dashiguan"
+                    android:padding="20dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
