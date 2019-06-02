@@ -5,8 +5,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.location.Address;
-import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -18,10 +16,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import java.io.IOException;
 import java.util.List;
-import java.util.Locale;
+
 
 
 public class contect_infor extends Activity {
@@ -77,10 +73,10 @@ public class contect_infor extends Activity {
             return;
         }
         Location located = locationManager.getLastKnownLocation(provider);
-        if (location != null) {
+        if (located != null) {
             string = "Latitude is ：" + located.getLatitude() + ",Longitude is ："
                     + located.getLongitude();
-
+             location.setText(string);
 
 
         }
